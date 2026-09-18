@@ -1,1 +1,3 @@
-"""FastAPI wiring shared across routers — currently the auth dependencies."""
+from app.api.routes import router
+
+__all__ = ["router"]
